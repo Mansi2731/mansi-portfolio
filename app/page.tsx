@@ -1,4 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -11,23 +12,19 @@ export default function Page() {
         height={100}
         className="rounded-full mb-8"
       />
+
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Hey, I'm Mansi Sikarwar.
       </h1>
+      
       <p className="mb-4">
-        {`I am a Full Stack Engineer specializing in building scalable, high-performance applications. 
-        With an academic foundation from NIT Warangal and enterprise engineering experience from JPMorgan Chase, 
-        I focus on crafting robust backend architectures and dynamic user interfaces.`}
+        {`I am a Full Stack Engineer specializing in building scalable, high-performance applications. With an academic foundation from NIT Warangal and enterprise engineering experience from JPMorgan Chase, I focus on crafting robust backend architectures and dynamic user interfaces.`}
       </p>
-      <p className="mb-4">
-        {`My technical expertise centers on developing clean, well-tested solutions using 
-          C#, .NET Core, and React. Beyond core software development, 
-        I am actively exploring how artificial intelligence and machine learning can be leveraged 
-        to drive intelligent automation, enhance application performance, and solve complex system challenges. 
-        I am currently seeking opportunities to join a dynamic engineering organization where I can 
-        contribute to high-impact platform integrations while continuously expanding my technical skill set.`}
+      
+      <p className="mb-8">
+        {`My technical expertise centers on developing clean, well-tested solutions using C#, .NET Core, and React. Beyond core software development, I am actively exploring how artificial intelligence and machine learning can be leveraged to drive intelligent automation, enhance application performance, and solve complex system challenges. I am currently seeking opportunities to join a dynamic engineering organization where I can contribute to high-impact platform integrations while continuously expanding my technical skill set.`}
       </p>
-        
+
       <h2 className="mb-4 text-xl font-semibold tracking-tighter">Core Competencies</h2>
       <ul className="mb-8 list-disc space-y-2 ml-4">
         <li><strong>Full-Stack Engineering:</strong> Designing resilient Web APIs and responsive front-end interfaces using C#, .NET Core, and React.</li>
@@ -43,6 +40,7 @@ export default function Page() {
         <li>GitHub: <a href="https://github.com/Mansi2731" target="_blank" rel="noopener noreferrer" className="hover:underline">@Mansi2731</a></li>
         <li>LeetCode: <a href="https://leetcode.com/u/mansisikarwar" target="_blank" rel="noopener noreferrer" className="hover:underline">@MansiSikarwar</a></li>
       </ul>
+
       <div className="my-8">
         <BlogPosts />
       </div>
