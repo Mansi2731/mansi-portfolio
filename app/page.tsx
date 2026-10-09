@@ -19,7 +19,7 @@ export default function Page() {
         With an academic foundation from NIT Warangal and enterprise engineering experience from JPMorgan Chase, 
         I focus on crafting robust backend architectures and dynamic user interfaces.`}
       </p>
-      <p className="mb-4>
+      <p className="mb-4">
         {`My technical expertise centers on developing clean, well-tested solutions using 
           C#, .NET Core, and React. Beyond core software development, 
         I am actively exploring how artificial intelligence and machine learning can be leveraged 
