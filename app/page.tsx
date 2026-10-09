@@ -5,7 +5,7 @@ export default function Page() {
     <section>
       {/* Profile Picture Section */}
       <Image
-        src="/profile.jpg"
+        src="/profile.png"
         alt="Mansi Sikarwar"
         width={100}
         height={100}
