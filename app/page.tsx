@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
 import Image from 'next/image'
 
 export default function Page() {
@@ -40,10 +39,6 @@ export default function Page() {
         <li>GitHub: <a href="https://github.com/Mansi2731" target="_blank" rel="noopener noreferrer" className="hover:underline">@Mansi2731</a></li>
         <li>LeetCode: <a href="https://leetcode.com/u/mansisikarwar" target="_blank" rel="noopener noreferrer" className="hover:underline">@MansiSikarwar</a></li>
       </ul>
-
-      <div className="my-8">
-        <BlogPosts />
-      </div>
     </section>
   )
 }
